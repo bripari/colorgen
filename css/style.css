@@ -1,0 +1,91 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background: rgb(37,37,38);
+  color: azure;
+  font-family: 'Red Hat Display', Verdana, sans-serif;
+}
+.mainSec {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.logo {
+  font-family: 'Cookie', 'cursive', 'sans-serif';
+  font-size: 3rem;
+}
+
+.generatedColors{
+  display: flex;
+  justify-content: center;
+}
+
+.genBtn {
+  background: #555555;
+  color: azure;
+  font-size: 1rem;
+  padding: 10px 20px 10px 20px;
+  border: solid azure 4px;
+  text-decoration: none;
+}
+.genBtn:hover {
+  
+  background: azure;
+  text-decoration: none;
+  color: #555555;
+}
+.genBtn:active {
+	position:relative;
+	top:1px;
+}
+
+aside{
+  width: 19%;
+  height: 150px;
+  margin: 0px;
+  background-color: rgb(0,0,0);
+  
+}
+
+.colorA{
+
+}
+
+.colorB{
+
+}
+
+.colorC{
+
+}
+
+.colorD{
+
+}
+
+.colorE{
+
+}
